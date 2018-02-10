@@ -4,6 +4,16 @@ body {
   color: #5a5a5a;
 }
 
+.blog {
+  padding: 3rem;
+}
+
+.blog-post-divider {
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+
+
 .btn-primary {
 	background-color: #4dc755;
 }

@@ -1,0 +1,15 @@
+# Site settings
+title: Veyon – Free and Open Source computer monitoring and classroom management
+email: info@veyon.io
+description: >
+  This is the official website of the Veyon project (Virtual Eye On Networks) ran by the Veyon team. In our blog we post news and updates as well as technical articles related to Veyon. Posts are targeted at both users and developers.
+baseurl: ""
+url: "http://veyon.io"
+
+gems: [jekyll-paginate]
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Build settings
+markdown: kramdown
