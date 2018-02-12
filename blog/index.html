@@ -3,15 +3,18 @@ layout: default
 ---
 
 <main role="main">
+  <h1 class="page-header text-center">Veyon Blog</h1>
   <div class="container blog">
-
-  <h1 class="page-heading">Veyon Blog</h1>
-    <hr class="blog-post-divider">
 
   {% for post in paginator.posts %}
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
     <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+    {% if post.image %}
+    <div class="text-center blog-post-image">
+      <img src="{{ post.image | prepend:site.baseurl }}" alt="" />
+    </div>
+    {% endif %}
     {{ post.excerpt }}
     {% capture content_words %} 
       {{ post.content | number_of_words }} 

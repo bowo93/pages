@@ -4,6 +4,17 @@ body {
   color: #5a5a5a;
 }
 
+a {
+  color: #2878f8;
+}
+
+.page-header {
+  padding: 2rem;
+  display: block;
+  color: white;
+  background-color: #2878f8;
+}
+
 .blog {
   padding: 3rem;
 }
@@ -12,7 +23,13 @@ body {
   margin: 2rem 0; /* Space out the Bootstrap <hr> more */
 }
 
+.blog-post-navigation {
+  margin: 3rem 0;
+}
 
+.blog-post-image {
+  padding: 2rem 0;
+}
 
 .btn-primary {
 	background-color: #4dc755;
