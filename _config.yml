@@ -16,3 +16,5 @@ plugins:
 
 # Build settings
 markdown: kramdown
+exclude:
+  - README.md
