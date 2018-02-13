@@ -70,11 +70,21 @@ a {
 }
 
 .btn-primary {
-	background-color: #4dc755 !important;
+  border-color: #008f18 !important;
+  background-color: #4dc755 !important;
 }
 
 .bg-dark {
   background-color: #1a4ea1 !important;
+}
+
+.tab-pane {
+  padding: 2rem;
+}
+
+.version-label {
+  font-size: 1.5rem;
+  padding: 2rem 0;
 }
 
 /* Carousel base class */
