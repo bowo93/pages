@@ -8,6 +8,16 @@ a {
   color: #2878f8;
 }
 
+.nav-link {
+  margin: 0 0.5rem;
+}
+
+.nav-link-active {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  padding-bottom: 3px;
+}
+
 .page-header {
   padding: 2rem;
   display: block;

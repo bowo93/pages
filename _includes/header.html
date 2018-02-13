@@ -7,10 +7,10 @@
 
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item"><a class="nav-link" href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+        <li class="nav-item"><a class="nav-link {% if page.navid == 'home' %} active nav-link-active {% endif %}" href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="https://github.com/veyon/veyon/releases/">Download</a></li>
         <li class="nav-item"><a class="nav-link" href="http://docs.veyon.io/">Documentation</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></li>
+        <li class="nav-item"><a class="nav-link {% if page.navid == 'blog' or page.layout == 'post' %} active nav-link-active {% endif %}" href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></li>
         <li class="nav-item"><a class="nav-link" href="https://www.paypal.com/cgi-bin/webscr?item_name=Donation+to+Veyon+-+Virtual+Eye+On+Networks&cmd=_donations&business=donate%40veyon.io">Donate</a></li>
         <li class="nav-item"><a class="nav-link" href="https://github.com/veyon/veyon/">Veyon on GitHub</a></li>
         <li class="nav-item"><a class="nav-link" href="https://facebook.com/veyon.io/">Veyon on Facebook</a></li>
