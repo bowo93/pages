@@ -50,9 +50,27 @@ a {
   padding-bottom: 2rem;
 }
 
+.blog-post-categories {
+  margin: 3rem 0;
+}
+
+.blog-post-categories-postedin {
+  font-weight: bold;
+}
+
+.blog-post-category {
+  background-color: #2878f8;
+  color: white;
+  padding: 3px;
+}
+
+.blog-post-category:hover {
+  color: white;
+  background-color: #1a4ea1 !important;
+}
 
 .btn-primary {
-	background-color: #4dc755;
+	background-color: #4dc755 !important;
 }
 
 .bg-dark {

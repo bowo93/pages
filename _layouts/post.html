@@ -10,7 +10,8 @@ navid: blog
   <div class="container blog">
     <header class="blog-post-header">
       <h2 class="blog-post-title" itemprop="name headline">{{ page.title }}</h2>
-      <p class="blog-post-meta">by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author.name }}</span></span> • <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+      <span class="blog-post-meta">by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author.name }}</span></span> on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
+
     </header>
     {% if page.image %}
     <div class="blog-post-image">
@@ -19,6 +20,13 @@ navid: blog
     {% endif %}
     <div class="blog-post-content" itemprop="articleBody">
       {{ content }}
+    </div>
+    <div class="blog-post-categories">
+      <span class="blog-post-categories-postedin">Posted in:&nbsp;</span>
+      {% for category in page.categories %}
+        <a href="{{site.baseurl}}/blog/categories/#{{category|slugize}}" class="blog-post-category">{{category | capitalize}}</a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
     </div>
     <div class="blog-post-navigation">
       {% if page.previous.url %}

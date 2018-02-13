@@ -1,0 +1,28 @@
+---
+layout: default
+navid: blog
+permalink: /blog/categories/
+title: Veyon Blog Categories
+---
+
+<main role="main">
+  <h1 class="page-header text-center">Veyon Blog</h1>
+  <div class="container blog">
+
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+    
+    <span class="blog-post-category">{{ category_name }}</span>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+  </div>
+</main>

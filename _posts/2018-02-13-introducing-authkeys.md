@@ -3,6 +3,7 @@ layout: post
 title:  "Introducing upcoming authentication key management"
 author: tobias.junghans
 date:   2018-02-13 08:02:30 +0100
+categories: [Veyon 4.1, Plugins]
 image: "/img/keys.jpg"
 ---
 
