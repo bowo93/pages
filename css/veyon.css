@@ -31,6 +31,16 @@ a {
   padding: 2rem 0;
 }
 
+.blog-post-image-fluid {
+  display: block;
+  max-width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+}
+
+
 .btn-primary {
 	background-color: #4dc755;
 }

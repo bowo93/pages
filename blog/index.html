@@ -11,8 +11,8 @@ layout: default
 
     <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
     {% if post.image %}
-    <div class="text-center blog-post-image">
-      <img src="{{ post.image | prepend:site.baseurl }}" alt="" />
+    <div class="blog-post-image">
+      <img src="{{ post.image | prepend:site.baseurl }}" class="img-fluid" alt="" />
     </div>
     {% endif %}
     {{ post.excerpt }}
