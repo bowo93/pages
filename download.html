@@ -9,8 +9,8 @@ stable-release-date: 2018-01-25
 <main role="main">
   <h1 class="page-header text-center">Download Veyon</h1>
   <div class="container">
-    <div class="version-label">
-    Latest stable version: <span class="badge badge-secondary">{{ page.stable-version }}</span> released on {{page.stable-release-date}}<br/>
+    <div itemscope itemtype="http://schema.org/SoftwareApplication" class="version-label">
+    Latest stable version: <span class="badge badge-secondary">{{ page.stable-version }}</span> released on <span itemprop="datePublished">{{page.stable-release-date}}</span><br/>
 
     <a class="btn btn-secondary" href="https://github.com/veyon/veyon/releases/tag/v{{ page.stable-version }}/">View release notes <i class="fas fa-arrow-circle-right"></i></a>
     </div>
