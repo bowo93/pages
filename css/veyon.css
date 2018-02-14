@@ -151,7 +151,7 @@ a {
   }
 
   .featurette-heading {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
@@ -160,7 +160,8 @@ a {
     display: block;
   }
   .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 1rem;
+    font-size: 50px;
   }
 }
 
