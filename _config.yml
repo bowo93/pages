@@ -1,8 +1,8 @@
 # Site settings
-title: Veyon – Free and Open Source computer monitoring and classroom management
+title: Veyon – Cross-platform computer monitoring and classroom management
 email: info@veyon.io
 description: >
-  This is the official website of the Veyon project (Virtual Eye On Networks) ran by the Veyon team. In our blog we post news and updates as well as technical articles related to Veyon. Posts are targeted at both users and developers.
+  This is the official website of the Veyon project (Virtual Eye On Networks) ran by the Veyon community. The website contains a download area, documentation and a blog.
 baseurl: ""
 url: "http://veyon.io"
 
