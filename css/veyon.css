@@ -69,7 +69,11 @@ a {
   background-color: #1a4ea1 !important;
 }
 
-.btn-primary {
+.get-involved {
+  padding: 3rem 0;
+}
+
+.btn-highlight {
   border-color: #008f18 !important;
   background-color: #4dc755 !important;
 }
@@ -126,7 +130,7 @@ a {
 
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 4rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
