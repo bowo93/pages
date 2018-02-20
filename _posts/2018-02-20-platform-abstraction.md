@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Multi-platform support in Veyon 4.1"
-author: tobias.junghans
+author: tobydox
 date:   2018-02-20 07:12:31 +0100
 categories: [Veyon 4.1, Platform support, Linux, Windows]
 image: "/img/blog/platform-plugins.jpg"

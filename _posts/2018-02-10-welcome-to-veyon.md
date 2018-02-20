@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to our blog!"
-author: tobias.junghans
+author: tobydox
 date:   2018-02-10 17:36:30 +0100
 categories: [ Hello world ]
 image: "/img/blog/hello-world.png"
