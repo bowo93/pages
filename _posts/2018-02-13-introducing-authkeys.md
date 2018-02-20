@@ -11,11 +11,11 @@ In this blog post I want to introduce the *authkeys* plugin which will be part o
 
 The following screenshot shows the configuration page for authentication keys:
 
-![authkeys configuration page](/img/authkeys-configurator.png){: .blog-post-image-fluid }
+![authkeys configuration page](/img/blog/authkeys-configurator.png){: .blog-post-image-fluid }
 
 The command line interface version provides the same functionalities as well as a similar visual appearance:
 
-![authkeys command line interface](/img/authkeys-cli.png){: .blog-post-image-fluid }
+![authkeys command line interface](/img/blog/authkeys-cli.png){: .blog-post-image-fluid }
 
 As you can see we have focussed on simple operations which can be performed (and automated!) individually at any time. No need to walk through the assistant when you only want to export a previously created key pair. Instead keys can be exported or imported with just one click or one CLI command. Public and private keys are listed separately. This way they can be managed independently. The key pair ID is a hash of a common key part. It is identical for public and private keys belonging together. By comparing the key pair ID you can identify mismatches easily e.g. after importing old keys or keys with a wrong name.
 

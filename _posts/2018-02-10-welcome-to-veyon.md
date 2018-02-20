@@ -4,7 +4,7 @@ title:  "Welcome to our blog!"
 author: tobias.junghans
 date:   2018-02-10 17:36:30 +0100
 categories: [ Hello world ]
-image: "/img/hello-world.png"
+image: "/img/blog/hello-world.png"
 ---
 
 Hooray, this is the first post in our new blog! It will become the primary source for announcements and updates related to Veyon. Stay tuned for our next post with all information on the next release series (4.1.x).
