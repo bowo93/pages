@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Multi-platform support in Veyon 4.1"
+title:  "Improved multi-platform support in Veyon 4.1"
 author: tobydox
 date:   2018-02-20 07:12:31 +0100
 categories: [Veyon 4.1, Platform support, Linux, Windows]
