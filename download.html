@@ -5,15 +5,16 @@ permalink: /download/
 title: Download Veyon
 stable-version: 4.0.6
 stable-release-date: 2018-04-12
+test-version: 4.0.90
+test-release-date: 2018-04-11
 ---
 
 <main role="main">
   <h1 class="page-header text-center">{{ page.title }}</h1>
   <div class="container">
     <div itemscope itemtype="http://schema.org/SoftwareApplication" class="version-label">
-    Latest stable version: <span class="badge badge-secondary" itemprop="softwareVersion">{{ page.stable-version }}</span> released on <span itemprop="datePublished">{{page.stable-release-date}}</span><br/>
-
-    <a class="btn btn-secondary" href="https://github.com/veyon/veyon/releases/tag/v{{ page.stable-version }}/">View release notes <i class="fas fa-arrow-circle-right"></i></a>
+      <h2>Stable releases</h2>
+	  <span class="badge badge-secondary" itemprop="softwareVersion">{{ page.stable-version }}</span> released on <span itemprop="datePublished">{{page.stable-release-date}}</span> <a class="btn btn-secondary" href="https://github.com/veyon/veyon/releases/tag/v{{ page.stable-version }}/"><i class="fas fa-arrow-circle-right"></i> View release notes</a>
     </div>
     <ul class="nav nav-tabs" role="tablist">
       <li class="nav-item">
@@ -41,6 +42,39 @@ stable-release-date: 2018-04-12
       </div>
       <div class="tab-pane fade" id="sources" role="tabpanel" aria-labelledby="sources-tab">
         <a class="btn btn-primary btn-highlight" href="https://github.com/veyon/veyon/releases/download/v{{ page.stable-version }}/veyon-{{ page.stable-version }}-src.tar.bz2"><i class="fa fa-download fa-3x"></i><br/>Source code archive</a>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div itemscope itemtype="http://schema.org/SoftwareApplication" class="version-label">
+      <h2>Veyon 4.1 test releases (unstable)</h2>
+	  <span class="badge badge-secondary">{{ page.test-version }}</span> released on <span>{{page.test-release-date}}</span> <a class="btn btn-secondary" href="https://github.com/veyon/veyon/releases/tag/v{{ page.test-version }}/"><i class="fas fa-arrow-circle-right"></i> View release notes</a>
+    </div>
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link text-center active" id="windows-tab-test" data-toggle="tab" href="#windows-test" role="tab" aria-controls="home" aria-selected="true"><i class="fab fa-windows fa-4x"></i><br>Windows</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-center" id="linux-tab-test" data-toggle="tab" href="#linux-test" role="tab" aria-controls="profile" aria-selected="false"><i class="fab fa-linux fa-4x"></i><br>Linux</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-center" id="sources-tab-test" data-toggle="tab" href="#sources-test" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-cubes fa-4x"></i><br>Sources</a>
+      </li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="windows-test" role="tabpanel" aria-labelledby="windows-tab-test">
+        <a class="btn btn-primary btn-highlight" href="https://github.com/veyon/veyon/releases/download/v{{ page.test-version }}/veyon-{{ page.test-version }}.0-win64-setup.exe"><i class="fa fa-download fa-3x"></i><br/>Setup file<br/>64 bit (x64)</a>
+        <a class="btn btn-primary btn-highlight" href="https://github.com/veyon/veyon/releases/download/v{{ page.test-version }}/veyon-{{ page.test-version }}.0-win32-setup.exe"><i class="fa fa-download fa-3x"></i><br/>Setup file<br/>32 bit (x86)</a>
+      </div>
+      <div class="tab-pane fade" id="linux-test" role="tabpanel" aria-labelledby="linux-tab-test">
+        <a class="btn btn-primary btn-highlight" href="https://github.com/veyon/veyon/releases/download/v{{ page.test-version }}/veyon_{{ page.test-version }}-debian-stretch_amd64.deb"><i class="fa fa-download fa-3x"></i><br/>Debian Stretch<br/>DEB/amd64</a>
+        <a class="btn btn-primary btn-highlight" href="https://github.com/veyon/veyon/releases/download/v{{ page.test-version }}/veyon_{{ page.test-version }}-ubuntu-xenial_amd64.deb"><i class="fa fa-download fa-3x"></i><br/>Ubuntu 16.04<br/>DEB/amd64</a>
+        <a class="btn btn-primary btn-highlight" href="https://github.com/veyon/veyon/releases/download/v{{ page.test-version }}/veyon_{{ page.test-version }}-ubuntu-artful_amd64.deb"><i class="fa fa-download fa-3x"></i><br/>Ubuntu 17.10<br/>DEB/amd64</a>
+        <a class="btn btn-primary btn-highlight" href="https://github.com/veyon/veyon/releases/download/v{{ page.test-version }}/veyon-{{ page.test-version }}.opensuse-42.3.x86_64.rpm"><i class="fa fa-download fa-3x"></i><br/>openSUSE 42.3<br/>RPM/x86_64</a>
+        <a class="btn btn-primary btn-highlight" href="https://github.com/veyon/veyon/releases/download/v{{ page.test-version }}/veyon-{{ page.test-version }}.fc26.x86_64.rpm"><i class="fa fa-download fa-3x"></i><br/>Fedora Core 26<br/>RPM/x86_64</a>
+        <a class="btn btn-primary btn-highlight" href="https://github.com/veyon/veyon/releases/download/v{{ page.test-version }}/veyon-{{ page.test-version }}.centos-73.x86_64.rpm"><i class="fa fa-download fa-3x"></i><br/>CentOS 7.3<br/>RPM/x86_64</a>
+      </div>
+      <div class="tab-pane fade" id="sources-test" role="tabpanel" aria-labelledby="sources-tab-test">
+        <a class="btn btn-primary btn-highlight" href="https://github.com/veyon/veyon/releases/download/v{{ page.test-version }}/veyon-{{ page.test-version }}-src.tar.bz2"><i class="fa fa-download fa-3x"></i><br/>Source code archive</a>
       </div>
     </div>
     <hr class="featurette-divider">
