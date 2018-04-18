@@ -78,8 +78,44 @@ a {
   background-color: #4dc755 !important;
 }
 
+.download-page {
+ margin-top: 1rem;
+ margin-left: auto;
+ margin-right: auto;
+ width: 80%;
+ text-align: center;
+}
+
+.btn-dl {
+ position:relative;
+ margin:4px;
+ text-align:left;
+ padding:1em 1em 1em 5em;
+ color: white !important;
+}
+
+.download-icon {
+ display: block;
+ position: absolute;
+ left: .2em;
+ top: .3em;
+}
+
+.btn-dl .download-icon {
+ display:block;
+ position:absolute;
+ left:.2em;
+ top:.3em;
+ opacity:.9
+}
+
+.dl-platform {
+ font-size:1.3em;
+ font-weight:bold;
+}
+
 .bg-dark {
-  background-color: #1a4ea1 !important;
+ background-color: #1a4ea1 !important;
 }
 
 .tab-pane {
@@ -87,8 +123,8 @@ a {
 }
 
 .version-label {
-  font-size: 1.5rem;
-  padding: 2rem 0;
+ padding-top: 2rem;
+ font-size: 1.2rem;
 }
 
 /* Carousel base class */
