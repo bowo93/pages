@@ -79,9 +79,7 @@ a {
 }
 
 .download-page {
- margin-top: 1rem;
- margin-left: auto;
- margin-right: auto;
+ padding: 3rem;
  width: 80%;
  text-align: center;
 }
@@ -113,6 +111,17 @@ a {
  font-size:1.3em;
  font-weight:bold;
 }
+
+.dl-rss {
+ margin-top:2rem;
+ margin-bottom:0;
+ text-align:left;
+}
+
+.dl-footer-divider {
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+}
+
 
 .bg-dark {
  background-color: #1a4ea1 !important;

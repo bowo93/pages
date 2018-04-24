@@ -6,6 +6,7 @@ title: Download Veyon
 stable-version: 4.0.7
 stable-release-date: 2018-04-18
 beta-version: 4.0.90
+beta-version-label: Veyon 4.1 Alpha
 beta-release-date: 2018-04-11
 ---
 
@@ -25,7 +26,7 @@ beta-release-date: 2018-04-11
     </ul>
     <div itemscope itemtype="http://schema.org/SoftwareApplication" class="version-label">
       <h3>Stable versions</h3>
-      <a href="https://github.com/veyon/veyon/releases/tag/v{{ page.stable-version }}/"><span class="badge badge-secondary" itemprop="softwareVersion">{{ page.stable-version }}</span></a> released on <span itemprop="datePublished">{{page.stable-release-date}}</span>
+      <a href="https://github.com/veyon/veyon/releases/tag/v{{ page.stable-version }}/"><span class="badge badge-secondary" itemprop="softwareVersion">Veyon {{ page.stable-version }}</span></a> released on <span itemprop="datePublished">{{page.stable-release-date}}</span>
     </div>
     <div class="tab-content">
       <div class="tab-pane fade show active" id="windows" role="tabpanel" aria-labelledby="windows-tab">
@@ -34,8 +35,8 @@ beta-release-date: 2018-04-11
         <br/>
         <br/>
         <div class="version-label">
-          <h3>Beta versions</h3>
-          <a href="https://github.com/veyon/veyon/releases/tag/v{{ page.beta-version }}/"><span class="badge badge-secondary" itemprop="softwareVersion">{{ page.beta-version }}</span></a> released on <span itemprop="datePublished">{{page.beta-release-date}}</span>
+          <h3>Pre-releases</h3>
+          <a href="https://github.com/veyon/veyon/releases/tag/v{{ page.beta-version }}/"><span class="badge badge-secondary" itemprop="softwareVersion">{{ page.beta-version-label }} ({{ page.beta-version }})</span></a> released on <span itemprop="datePublished">{{page.beta-release-date}}</span>
         </div>
         <br/>
         <a class="btn btn-dl btn-warning" href="https://github.com/veyon/veyon/releases/download/v{{ page.beta-version }}/veyon-{{ page.beta-version }}.0-win64-setup.exe"><i class="fa fa-download fa-3x download-icon"></i><span class="dl-platform">Windows 64 bit</span><br/>Setup file</a>
@@ -51,8 +52,8 @@ beta-release-date: 2018-04-11
         <br/>
         <br/>
         <div class="version-label">
-          <h3>Beta versions</h3>
-          <a href="https://github.com/veyon/veyon/releases/tag/v{{ page.beta-version }}/"><span class="badge badge-secondary" itemprop="softwareVersion">{{ page.beta-version }}</span></a> released on <span itemprop="datePublished">{{page.beta-release-date}}</span>
+          <h3>Pre-releases</h3>
+          <a href="https://github.com/veyon/veyon/releases/tag/v{{ page.beta-version }}/"><span class="badge badge-secondary" itemprop="softwareVersion">{{ page.beta-version-label }} ({{ page.beta-version }})</span></a> released on <span itemprop="datePublished">{{page.beta-release-date}}</span>
         </div>
         <br/>
         <a class="btn btn-warning btn-dl" href="https://github.com/veyon/veyon/releases/download/v{{ page.beta-version }}/veyon_{{ page.beta-version }}-debian-stretch_amd64.deb"><i class="fa fa-download fa-3x download-icon"></i><span class="dl-platform">Debian Stretch</span><br/>DEB/amd64</a>
@@ -71,8 +72,9 @@ beta-release-date: 2018-04-11
         <a class="btn btn-primary" href="https://github.com/veyon/veyon/"><i class="fas fa-arrow-circle-right"></i> Latest source code in Git repository</a>
 
       </div>
+      <hr class="dl-footer-divider">
+      <p class="dl-rss">Subscribe to <a href="https://github.com/veyon/veyon/releases.atom">release feed via RSS</a></p>
     </div>
-    <hr class="featurette-divider">
   </div>
 </main>
 
