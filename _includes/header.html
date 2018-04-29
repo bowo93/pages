@@ -9,7 +9,7 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item"><a class="nav-link {% if page.navid == 'home' %} active nav-link-active {% endif %}" href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
         <li class="nav-item"><a itemprop="downloadUrl" class="nav-link {% if page.navid == 'download' %} active nav-link-active {% endif %}" href="/download/">Download</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://docs.veyon.io/" itemprop="softwareHelp">Documentation</a></li>
+        <li class="nav-item"><a class="nav-link {% if page.navid == 'docs' %} active nav-link-active {% endif %}" href="/docs/" itemprop="softwareHelp">Documentation</a></li>
         <li class="nav-item"><a class="nav-link" href="https://veyon.nodebb.com" target="_blank">Forum</a></li>
         <li class="nav-item"><a class="nav-link {% if page.navid == 'blog' or page.layout == 'post' %} active nav-link-active {% endif %}" href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></li>
         <li class="nav-item"><a class="nav-link {% if page.navid == 'get-involved' %} active nav-link-active {% endif %}" href="{{ "/get-involved/" | prepend: site.baseurl }}">Get involved</a></li>

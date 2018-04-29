@@ -25,6 +25,21 @@ a {
   background-color: #2878f8;
 }
 
+.docs-container {
+ position: absolute;
+ overflow: hidden;
+ width: 100%;
+ height: 90%;
+}
+.docs-container iframe {
+ border: none;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+
 .blog {
   padding: 3rem;
 }
@@ -218,18 +233,18 @@ a {
     -webkit-transition-duration: .9s;
     transition-duration: .9s;
     -webkit-transition-property: opacity;
-    transition-property: opacity; 
+    transition-property: opacity;
 }
 
 .carousel-fade .carousel-item.active,
 .carousel-fade .carousel-item-next.carousel-item-left,
 .carousel-fade .carousel-item-prev.carousel-item-right {
-    opacity: 1; 
+    opacity: 1;
 }
 
 .carousel-fade .active.carousel-item-left,
 .carousel-fade .active.carousel-item-right {
-    opacity: 0; 
+    opacity: 0;
 }
 
 .carousel-fade .carousel-item-next,
@@ -239,7 +254,7 @@ a {
 .carousel-fade .active.carousel-item-prev {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
-    transform: translateX(0); 
+    transform: translateX(0);
 }
 
 @supports (transform-style: preserve-3d) {
@@ -249,6 +264,6 @@ a {
     .carousel-fade .active.carousel-item-left,
     .carousel-fade .active.carousel-item-prev {
         -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0); 
-    } 
+        transform: translate3d(0, 0, 0);
+    }
 }
