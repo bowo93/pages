@@ -4,7 +4,7 @@ email: info@veyon.io
 description: >
   This is the official website of the Veyon project (Virtual Eye On Networks) ran by the Veyon community. The website contains a download area, documentation and a blog.
 baseurl: ""
-url: "http://veyon.io"
+url: "https://veyon.io"
 
 gems:
   - jekyll-paginate
