@@ -1,10 +1,5 @@
-html {
-  height: 100%;
-}
-
 body {
   padding-top: 3rem;
-  min-height: 100%;
   color: #555555;
   min-height: 100%;
 }
@@ -35,11 +30,13 @@ a {
 }
 
 .docs-container {
- position: absolute;
- overflow: hidden;
- width: 100%;
- height: 90%;
+ position: fixed;
+ bottom: 4.5rem;
+ top: 3rem;
+ left: 0;
+ right: 0;
 }
+
 .docs-container iframe {
  border: none;
  position: absolute;
@@ -187,7 +184,7 @@ a {
 }
 
 .content {
- padding-bottom: 3rem;
+ padding-bottom: 4rem;
 }
 
 .footer {
