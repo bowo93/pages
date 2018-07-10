@@ -3,7 +3,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Veyon - Virtual Eye On Networks">
   <meta name="author" content="Tobias Junghans">
-  <link rel="icon" href="favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" href="{{ "/favicon.png" | prepend: site.baseurl }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ "/favicon-96.png" | prepend: site.baseurl }}" sizes="96x96">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | prepend: site.baseurl }}">
+  <meta name="msapplication-TileImage" content="{{ "/mstile-144x144.png" | prepend: site.baseurl }}">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
