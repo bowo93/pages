@@ -1,15 +1,24 @@
+html {
+  height: 100%;
+}
+
 body {
   padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
+  min-height: 100%;
+  color: #555555;
+  min-height: 100%;
 }
 
 a {
-  color: #2878f8;
+  color: #198cb3;
 }
 
 .nav-link {
   margin: 0 0.5rem;
+}
+
+.nav-tabs .nav-link:hover {
+ color: #106e8c !important;
 }
 
 .nav-link-active {
@@ -22,7 +31,7 @@ a {
   padding: 2rem;
   display: block;
   color: white;
-  background-color: #2878f8;
+  background-color: #198cb3;
 }
 
 .docs-container {
@@ -74,27 +83,64 @@ a {
 }
 
 .blog-post-category {
-  background-color: #2878f8;
+  background-color: #198cb3;
   color: white;
   padding: 3px;
 }
 
 .blog-post-category:hover {
   color: white;
-  background-color: #1a4ea1 !important;
+  background-color: #106e8c !important;
 }
 
-.forum {
+.footnote {
+ font-size:0.7em;
+}
+
+.forum, .get-involved, .privacy, .about {
   padding: 3rem 0;
 }
 
-.get-involved {
-  padding: 3rem 0;
+.facts {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.facts li {
+  counter-increment: step-counter;
+  margin-bottom: 1rem;
+}
+.facts li::before {
+  content: counter(step-counter);
+  margin-right: 0.8rem;
+  display: block;
+  float: left;
+  font-size: 0.8rem;
+  background-color: #198cb3;
+  color: white;
+  font-weight: bold;
+  padding: 0.25rem 0.65rem;
+  border-radius: 0.9rem;
+}
+
+.btn-primary {
+ border-color: #106e8c !important;
+ background-color: #198cb3 !important;
+}
+
+.btn-outline-primary {
+ border-color: #198cb3 !important;
+ color: #198cb3;
 }
 
 .btn-highlight {
-  border-color: #008f18 !important;
-  background-color: #4dc755 !important;
+ border-color: #106e8c !important;
+ background-color: #00acdc !important;
+}
+
+.btn-highlight:focus, .btn-primary:hover, .btn-primary:focus, .btn-outline-primary:hover {
+ box-shadow: none !important;
+ background-color: #106e8c !important;
 }
 
 .download-page {
@@ -137,12 +183,34 @@ a {
 }
 
 .dl-footer-divider {
-  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+ margin: 2rem 0; /* Space out the Bootstrap <hr> more */
 }
 
+.content {
+ padding-bottom: 3rem;
+}
+
+.footer {
+ position: fixed;
+ bottom: 0;
+ right: 0;
+ left: 0;
+ padding: 1.5rem;
+ color: white;
+}
+
+.footer .links {
+ margin-top: -0.5rem;
+ font-size: 1.5rem;
+}
+
+.footer a {
+  color: white;
+  padding: 1rem;
+}
 
 .bg-dark {
- background-color: #1a4ea1 !important;
+ background-color: #106e8c !important;
 }
 
 .tab-pane {
@@ -157,7 +225,7 @@ a {
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
-  background-color: #2878f8;
+  background-color: #198cb3;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {

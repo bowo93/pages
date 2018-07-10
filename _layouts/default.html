@@ -2,11 +2,11 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <span itemscope itemtype="http://schema.org/SoftwareApplication">
     {% include header.html %}
-    {{ content }}
+    <div class="content">
+      {{ content }}
+    </div>
     {% include footer.html %}
-    </span>
     {% include script.html %}
   </body>
 </html>
