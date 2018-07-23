@@ -2,9 +2,8 @@
 layout: post
 title:  "Veyon 4.1 released"
 author: tobydox
-date:   2018-07-20 11:11:24 +0200
+date:   2018-07-23 16:08:24 +0200
 categories: [Veyon 4.1, release]
-published: false
 image: "/img/blog/veyon-4-1.jpg"
 ---
 
@@ -32,7 +31,16 @@ About 10 months after we launched Veyon 4.0.0 we're happy to announce Veyon 4.1.
 
 * Overall security has been improved by enabling appropriate hardening techniques and reworking code sequences with potential buffer overflows.
 
-In order to implement the new features we had to change some details in the network protocol making Veyon 4.1 incompatible with Veyon 4.0. This means you'll have to update all computers in order to use Veyon 4.1. All Veyon 4.1 downloads are available at our [download page][download-page].
+In order to implement the new features we had to change some details in the network protocol making Veyon 4.1 incompatible with Veyon 4.0. This means you'll have to update all computers in order to use Veyon 4.1. All Veyon 4.1 downloads are available at our [download page][downloads].
 
-[download-page]: https://veyon.io/download/
+You need updated administration or user manuals? No problem! Just head over to our [documentation portal][docs].
+
+Questions or problems with setting up or using Veyon? Don't hesitate to join our [community forum][community-forum].
+
+You encounter a bug in Veyon? Tell us by opening an issue in our [issue-tracker].
+
+[downloads]: https://veyon.io/download/
+[docs]: https://docs.veyon.io/
+[community-forum]: https://veyon.io/forum/
+[issue-tracker]: https://github.com/veyon/veyon/issues
 
