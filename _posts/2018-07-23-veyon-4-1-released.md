@@ -7,7 +7,7 @@ categories: [Veyon 4.1, release]
 image: "/img/blog/veyon-4-1.jpg"
 ---
 
-About 10 months after we launched Veyon 4.0.0 we're happy to announce Veyon 4.1.0. The new 4.1.x release series brings major improvements and changes, especially regarding platform integration and administration. We already blogged about the most notable ones in previous articles but of course we want to give you a summary of highlights you'll find in this new release:
+About 10 months after we launched Veyon 4.0.0 we're happy to announce Veyon 4.1.0. Thanks to all who helped making up this release, especially kept on testing and reporting issues. The new 4.1.x release series brings major improvements and changes, especially regarding platform integration and administration. We already blogged about the most notable ones in previous articles but of course we want to give you a summary of highlights you'll find in this new release:
 
 * In Veyon Master you'll find new buttons at the bottom toolbar. You can hide powered off computers by toggling the button with the power switch icon next to the search bar. The new computer alignment control buttons on the right side allow to [customize the arrangement of computer thumbnails]({{ site.baseurl }}{% post_url 2018-05-16-arrange-computer-thumbnails %}) via drag and drop.
 
