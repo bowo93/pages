@@ -13,7 +13,7 @@ About 10 months after we launched Veyon 4.0.0 we're happy to announce Veyon 4.1.
 
 * Programs and websites can be predefined for the features *Run program* and *Open website*. The user can simply choose the program or website from a menu so it's not necessary to enter the information manually everytime.
 
-* Appearence and behaviour of Veyon Master is more customizable. Both background color and the computer thumbnail caption can be changed. Also the refresh interval for thumbnails is configurable. At the same time we improved network connection timeouts leading to much faster detection of computers being on- or offline. Additionally remote control is more responsive now, especially on Linux.
+* Appearence and behaviour of Veyon Master is more customizable. Both background color and the computer thumbnail caption can be changed. Also the refresh interval for thumbnails is configurable. At the same time we improved network connection timeouts leading to much quicker detection of computers being on- or offline. Additionally remote control is more responsive now, especially on Linux.
 
 * Veyon administrators who are based in the Linux world will be happy about [the newly introduced systemd support]({{ site.baseurl }}{% post_url 2018-04-09-systemd-support %}). The Veyon Service can be managed the same way on Linux as on Windows and there's no need to manually edit or create start files any longer.
 
@@ -37,7 +37,7 @@ You need updated administration or user manuals? No problem! Just head over to o
 
 Questions or problems with setting up or using Veyon? Don't hesitate to join our [community forum][community-forum].
 
-You encounter a bug in Veyon? Tell us by opening an issue in our [issue-tracker].
+You encounter a bug in Veyon? Tell us by opening an issue in our [issue-tracker][issue tracker].
 
 [downloads]: https://veyon.io/download/
 [docs]: https://docs.veyon.io/
