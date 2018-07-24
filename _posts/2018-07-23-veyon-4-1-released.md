@@ -7,15 +7,15 @@ categories: [Veyon 4.1, release]
 image: "/img/blog/veyon-4-1.jpg"
 ---
 
-About 10 months after we launched Veyon 4.0.0 we're happy to announce Veyon 4.1.0. Thanks to all who helped making up this release, especially kept on testing and reporting issues. The new 4.1.x release series brings major improvements and changes, especially regarding platform integration and administration. We already blogged about the most notable ones in previous articles but of course we want to give you a summary of highlights you'll find in this new release:
+About 10 months after we launched Veyon 4.0.0 we're happy to announce Veyon 4.1.0. First of all we would like to thank everyone who helped to make up this release, especially the people who kept on testing and giving feedback. The new 4.1.x release series brings major improvements and changes, most importantly regarding platform integration and administration. We already blogged about the most notable achievements in previous articles but of course we want to give you a summary of highlights you'll find in this new release:
 
 * In Veyon Master you'll find new buttons at the bottom toolbar. You can hide powered off computers by toggling the button with the power switch icon next to the search bar. The new computer alignment control buttons on the right side allow to [customize the arrangement of computer thumbnails]({{ site.baseurl }}{% post_url 2018-05-16-arrange-computer-thumbnails %}) via drag and drop.
 
-* Programs and websites can be predefined for the features *Run program* and *Open website*. The user can simply choose the program or website from a menu so it's not necessary to enter the information manually everytime.
+* Programs and websites can be predefined for the features *Run program* and *Open website*. The user can simply choose the program or website from a menu so it's not necessary to enter web addresses and program names manually everytime.
 
 * Appearence and behaviour of Veyon Master is more customizable. Both background color and the computer thumbnail caption can be changed. Also the refresh interval for thumbnails is configurable. At the same time we improved network connection timeouts leading to much quicker detection of computers being on- or offline. Additionally remote control is more responsive now, especially on Linux.
 
-* Veyon administrators who are based in the Linux world will be happy about [the newly introduced systemd support]({{ site.baseurl }}{% post_url 2018-04-09-systemd-support %}). The Veyon Service can be managed the same way on Linux as on Windows and there's no need to manually edit or create start files any longer.
+* Veyon administrators coming from the Linux world will be happy about [the newly introduced systemd support]({{ site.baseurl }}{% post_url 2018-04-09-systemd-support %}). The Veyon Service can be managed the same way on Linux as on Windows and there's no need to manually edit or create start files any longer.
 
 * The [management of authentication keys]({{ site.baseurl }}{% post_url 2018-02-13-introducing-authkeys %}) is now much more easy and flexible. We replaced the old assistant with dedicated buttons for individual actions such as creating, removing, exporting and importing authentication keys. You can even let Veyon handle the key file permissions by simply assigning an user group whose members shall be allowed to access the key files.
 
@@ -37,7 +37,7 @@ You need updated administration or user manuals? No problem! Just head over to o
 
 Questions or problems with setting up or using Veyon? Don't hesitate to join our [community forum][community-forum].
 
-You encounter a bug in Veyon? Tell us by opening an issue in our [issue-tracker][issue tracker].
+You encounter a bug in Veyon? Tell us by opening an issue in our [issue tracker][issue-tracker].
 
 [downloads]: https://veyon.io/download/
 [docs]: https://docs.veyon.io/
